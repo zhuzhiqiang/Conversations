@@ -42,6 +42,7 @@ public class OtrService extends OtrCryptoEngineImpl implements OtrEngineHost {
 	private OtrPolicy otrPolicy;
 	private KeyPair keyPair;
 	private XmppConnectionService mXmppConnectionService;
+	private String test;
 
 	public OtrService(XmppConnectionService service, Account account) {
 		this.account = account;
